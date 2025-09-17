@@ -1,0 +1,49 @@
+11:14:57.303 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:15:00.024 [main] ERROR testCases.TC_001_ApplicationRegistration - Test Failed
+11:15:00.026 [main] DEBUG testCases.TC_001_ApplicationRegistration - Debug Logs..
+11:20:26.788 [main] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:20:26.877 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:20:27.053 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:20:27.554 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:20:29.606 [main] ERROR testCases.TC_001_ApplicationRegistration - Test Failed
+11:20:29.606 [main] DEBUG testCases.TC_001_ApplicationRegistration - Debug Logs..
+11:45:18.078 [main] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:45:18.153 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:45:18.313 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:45:18.804 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:45:20.894 [main] ERROR testCases.TC_001_ApplicationRegistration - Test Failed
+11:45:20.894 [main] DEBUG testCases.TC_001_ApplicationRegistration - Debug Logs..
+11:46:53.846 [main] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:46:53.904 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:46:54.078 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:46:54.593 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:46:56.671 [main] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:48:31.606 [main] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:48:31.688 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:48:31.873 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:48:32.394 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:48:34.542 [main] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:50:57.330 [main] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:50:57.391 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:50:57.568 [main] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:50:58.093 [main] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:51:00.152 [main] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:51:00.154 [main] INFO  testCases.TC_001_ApplicationRegistration - ********Application Registration Testing Is Completed*********
+11:55:13.430 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:55:13.940 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:55:14.521 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:55:15.249 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:55:15.251 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:55:15.586 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:55:15.763 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:55:17.490 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:55:20.079 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:55:20.080 [TestNG-tests-1] INFO  testCases.TC_001_ApplicationRegistration - ********Application Registration Testing Is Completed*********
+11:55:20.828 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:55:20.828 [TestNG-tests-2] INFO  testCases.TC_001_ApplicationRegistration - ********Application Registration Testing Is Completed*********
+11:55:23.299 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - *********Strating Application Registration Testing****** 
+11:55:23.301 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - Clicking My Account
+11:55:23.503 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - Clicking Register
+11:55:23.997 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - Providing Customer Information
+11:55:25.490 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - Account Is Created
+11:55:25.490 [TestNG-tests-3] INFO  testCases.TC_001_ApplicationRegistration - ********Application Registration Testing Is Completed*********

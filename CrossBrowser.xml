@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true"
+          name="chrome">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_ApplicationRegistration">
+                <methods>
+                    <include name="testApplicationRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="edge">
+        <parameter name="os" value="edge"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_ApplicationRegistration">
+                <methods>
+                    <include name="testApplicationRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="firefox">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.TC_001_ApplicationRegistration">
+                <methods>
+                    <include name="testApplicationRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

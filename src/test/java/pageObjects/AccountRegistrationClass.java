@@ -71,4 +71,6 @@ public class AccountRegistrationClass extends BasePage{
            return e.getMessage();
         }
     }
+
+
 }

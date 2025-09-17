@@ -17,25 +17,50 @@ public class TC_001_ApplicationRegistration extends BaseClass{
 
     @Test
     public void testApplicationRegistration(){
-        HomePage hp=new HomePage(driver);
-        hp.clickMyAccount();
-        hp.clickRegister();
+        try {
 
-        AccountRegistrationClass arc=new AccountRegistrationClass(driver);
-        arc.setFirstName(generateRandomString().toUpperCase());
-        arc.setLastname(generateRandomString().toUpperCase());
-        arc.setEmail(generateRandomString()+"@example.com");
-        arc.setTelephone(generateRandomNumber());
+            logger.info("*********Strating Application Registration Testing****** ");
 
-        String password=generateRandomAlphanumeric();
-        arc.setPassword(password);
-        arc.setConfirmPassword(password);
-        arc.clickPrivacyPolicy();
-        arc.cLickContinueButton();
+            HomePage hp = new HomePage(driver);
+            logger.info("Clicking My Account");
+            hp.clickMyAccount();
+            logger.info("Clicking Register");
+            hp.clickRegister();
 
-        String message=arc.getConfirmationMessage();
+            AccountRegistrationClass arc = new AccountRegistrationClass(driver);
 
-        Assert.assertEquals(message,"Your Account Has Been Created!");
+            logger.info("Providing Customer Information");
+            arc.setFirstName(generateRandomString().toUpperCase());
+            arc.setLastname(generateRandomString().toUpperCase());
+            arc.setEmail(generateRandomString() + "@example.com");
+            arc.setTelephone(generateRandomNumber());
+
+            String password = generateRandomAlphanumeric();
+            arc.setPassword(password);
+            arc.setConfirmPassword(password);
+            arc.clickPrivacyPolicy();
+            arc.cLickContinueButton();
+
+            String message = arc.getConfirmationMessage();
+            if (message.equals("Your Account Has Been Created!")){
+
+                Assert.assertTrue(true);
+                logger.info("Account Is Created");
+
+            }
+            else {
+
+                logger.error("Test Failed");
+                logger.debug("Debug Logs..");
+                Assert.assertTrue(false);
+            }
+
+        } catch (Exception e) {
+
+            Assert.fail(e.getMessage());
+        }
+
+        logger.info("********Application Registration Testing Is Completed*********");
     }
 
 }
