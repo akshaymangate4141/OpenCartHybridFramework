@@ -15,7 +15,7 @@ import java.time.Duration;
 public class TC_001_ApplicationRegistration extends BaseClass{
 
 
-    @Test
+    @Test(groups = {"Sanity","Master"})
     public void testApplicationRegistration(){
         try {
 

@@ -10,7 +10,7 @@ import java.io.Reader;
 
 public class TC_002_LoginTest extends BaseClass{
 
-    @Test
+    @Test(groups = {"Regresstion","Master"})
     public void verifyLogin(){
 
         logger.info("*****Starting Login Test");

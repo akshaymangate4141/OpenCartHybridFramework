@@ -24,7 +24,7 @@ public class BaseClass {
     public Logger logger;
     public Properties p;
 
-    @BeforeClass
+    @BeforeClass(groups = {"Sanity","Regression","Master","Data Driven"})
     @Parameters({"os", "browser"})
     public void setup(String os, String br) throws IOException {
 
@@ -52,7 +52,7 @@ public class BaseClass {
         driver.get(p.getProperty("appURL"));
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Sanity","Regression","Master","Data Driven"})
     public void tearDown() {
         driver.quit();
     }

@@ -9,7 +9,7 @@ import utilities.DataProviders;
 
 public class TC_003_LoginTDD extends BaseClass {
 
-    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class,groups = {"Data Driven"})
     public void verifyLoginTdd(String email, String password, String exp) {
 
         logger.info("************ TC_003 Test Case Is Started********");
