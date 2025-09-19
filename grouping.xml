@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+
     <groups>
         <run>
             <include name="Sanity"/>
@@ -9,10 +10,13 @@
 
         </run>
     </groups>
+    <listeners>
+        <listener class-name="utilities.ExtendReportManager"/>
+    </listeners>
     <test verbose="2" preserve-order="true"
           name="Test1">
         <parameter name="os" value="windows"/>
-        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="testCases.TC_001_ApplicationRegistration"/>
                 <class name="testCases.TC_002_LoginTest"/>
